@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # roda todo dia à meia-noite UTC
   workflow_dispatch:
 
 jobs:
@@ -27,4 +27,7 @@ jobs:
           author_email: github-actions@github.com
           message: "Atualiza snake.svg"
           add: "./dist/snake.svg"
-          branch: output
+          new_branch: output
+          push: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
