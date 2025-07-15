@@ -34,7 +34,13 @@
 
 ###
 
+<br clear="both">
+
 <img src="https://raw.githubusercontent.com/DevWesCode/DevWesCode/output/snake.svg" alt="Snake animation" />
+
+###
+
+<h2 align="left">Redes</h2>
 
 ###
 
