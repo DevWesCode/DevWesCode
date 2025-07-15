@@ -1,0 +1,30 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Geração da animação da cobrinha
+        uses: Platane/snk@v3
+        with:
+          github_user_name: DevWesCode
+          outputs: |
+            ./dist/snake.svg
+
+      - name: Commit e push da cobrinha
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "Atualiza snake.svg"
+          add: "./dist/snake.svg"
+          branch: output
