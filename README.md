@@ -6,10 +6,6 @@
 
 ###
 
-<p align="left">Meu nome é Wesley Rodrigues, tenho 32 anos.<br>Sempre apaixonado por tecnologia, o que me levou a migrar de área, sou formado em Gestão da Produção com pós em Engenharia de Produção, e em torno de um ano e meio decidi dar um salto enorme e mergulhar no desenvolvimento e reaprender a aprender.</p>
-
-###
-
 <p align="left">📚 Atualmente estou focado em aprender, iniciei em Engenharia de Software pela UniCesumar e cursando o DevClub (fullstack).<br>🎯 Tenho como meta evoluir como Desenvolvedor Fullstack e conseguir o tão aclamado primeiro emprego na area (espero mudar essa linha o mais breve possivel 🤣)</p>
 
 ###
